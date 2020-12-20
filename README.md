@@ -1,5 +1,4 @@
 # dockerplus_cli
-
 A CLI with a few commands that search through Docker images in a privately hosted Docker registry. The commands either do not work or are not free for privately hosted Docker registries. 
 
 To search, users provide a query to the CLI, a `GET` request is made to the Docker registry API, and with fuzzy matching, relevant image names are displayed. Similarly, with list, a `GET` request is made to the Docker registry API and all image names are displayed. 
